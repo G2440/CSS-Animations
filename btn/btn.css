@@ -1,0 +1,22 @@
+.ex1{
+    outline: none;
+    border: none;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 80px;
+    background-color: yellow;
+    color: Green;
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 0 6px #CCCC00	;
+}
+
+.ex1:hover{
+    box-shadow: 0 4px #CCCC00; 
+    top: 2px;
+}
+.ex1:active{
+    box-shadow: none;
+    top: 6px;
+}
